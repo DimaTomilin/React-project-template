@@ -1,10 +1,10 @@
 import React from 'react';
-import AddCityForm from './AddCityForm';
-import { useSelector, useDispatch } from 'react-redux';
-import CityWeather from './CityWeather';
-import { GrUpdate } from 'react-icons/gr';
-import { v4 as uuidv4 } from 'uuid';
+import SignIn from './SignIn';
 
 export default function Main() {
-  return <div className="main">Main</div>;
+  return (
+    <div className="main">
+      <SignIn />
+    </div>
+  );
 }
